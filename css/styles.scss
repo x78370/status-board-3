@@ -1,0 +1,43 @@
+/* @import "_reset.scss"; */
+$table-bg: #424242;
+$table-title: black;
+$table-even-row-bg: #404040;
+$table-row-font-color: white;
+
+table {
+	font-family: 'Gafata', sans-serif;
+	list-style: none;
+	background: $table-bg;
+
+	
+}
+
+body {
+	font-family: 'Gafata', sans-serif;
+	background-color: $table-bg;
+	
+}
+
+table thead {
+	background-color: $table-title;
+	tr th {
+		color: $table-row-font-color;
+		font-size: 1rem;
+		
+	}
+}
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table tr:nth-of-type(even) {
+background: $table-even-row-bg;
+}
+
+table tr td {
+	color: $table-row-font-color;
+	font-size: 1rem;
+	
+}
